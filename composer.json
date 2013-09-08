@@ -1,0 +1,18 @@
+{
+    "name": "tangler/twitter",
+    "description": "Twitter Module for Tangler",
+    "homepage": "http://www.github.com/Tangler/Twitter",
+    "keywords": ["php", "tangler", "twitter", "action", "trigger"],
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "3.7.*@dev",
+        "j7mbo/twitter-api-php": "dev-master",        
+        "tangler/core": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tangler\\": "src/"
+        }
+    }
+}
